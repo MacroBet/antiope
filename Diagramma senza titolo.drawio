@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-07-29T07:52:09.765Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="pRy8K0pPEPZFia68M9-e" version="20.2.0" type="github"><diagram id="uTrNNeMDZWR3n04082ds" name="Pagina-1">ddHBDoMgDADQr+GOoos7OzcvO3nYmUgnJGgNsuj29dOAc8TtQuC1paQQlrfTxfBeXlGAJjEVE2EnEsdZlM7rAk8HaXJ00BglHEUbVOoFHqnXhxIwBIkWUVvVh1hj10FtA+PG4Bim3VGHXXvewA6qmuu93pSw0iljlG6BElQjfevkkPmSlq/ZPnWQXOD4RawgLDeI1u3aKQe9DG8djKs7/4l+Xmagsz8K5s1293wIfogVbw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-29T08:01:40.231Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="W4EHtrtopI2uSzLz9PMt" version="20.2.0" type="github">
+  <diagram id="uTrNNeMDZWR3n04082ds" name="Pagina-1">
+    <mxGraphModel dx="1019" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NHomj8aiezH8oBuIjt4X-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=28;" edge="1" parent="1" source="NHomj8aiezH8oBuIjt4X-3" target="NHomj8aiezH8oBuIjt4X-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-3" value="Browse Products" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="30" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="NHomj8aiezH8oBuIjt4X-5" target="NHomj8aiezH8oBuIjt4X-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-5" value="Add Product*" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="95" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-9" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="170" y="61" width="54" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-1" value="Merchant" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="NHomj8aiezH8oBuIjt4X-9">
+          <mxGeometry y="29" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-8" value="&lt;p class=&quot;p1&quot;&gt;í ¾í´‘&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="NHomj8aiezH8oBuIjt4X-9">
+          <mxGeometry x="4" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-10" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="240" width="59" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-2" value="Business Analyst" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="NHomj8aiezH8oBuIjt4X-10">
+          <mxGeometry y="22" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-7" value="&lt;p class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;í ½í¸Ž&lt;/font&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="NHomj8aiezH8oBuIjt4X-10">
+          <mxGeometry x="4" width="55" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-12" value="&lt;h1&gt;*Manual or automatic&lt;/h1&gt;&lt;p&gt;This kind of task can be exploited by a parametrized script&lt;/p&gt;&lt;br&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="102" y="520" width="498" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-14" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="161" y="395" width="59" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-15" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="NHomj8aiezH8oBuIjt4X-14">
+          <mxGeometry y="22" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-18" value="&lt;p class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;í ¾í´´&lt;/font&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;fontSize=19;" vertex="1" parent="NHomj8aiezH8oBuIjt4X-14">
+          <mxGeometry x="-1" y="-15" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=28;" edge="1" parent="1" source="NHomj8aiezH8oBuIjt4X-21" target="NHomj8aiezH8oBuIjt4X-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-21" value="View Product" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NHomj8aiezH8oBuIjt4X-29" value="Predict Success" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="680" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
