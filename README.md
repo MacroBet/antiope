@@ -5,3 +5,5 @@ She’s able to make predictions about the success of a product in the market wh
 Antiope reveal to the marketer the real market segmentation taking into account the reviews, the price, the category/brand.  
 
 And much more..
+
+Data Mining and Machine Learning Project for AIDE course
