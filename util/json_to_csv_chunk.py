@@ -22,13 +22,15 @@ def json_to_csv(json_file, csv_file):
             dataset.append(json_obj)
             count += 1
             if(count>500000):
-                out_file_path= "{}_part_{}.csv".format(csv_file,file_part)
-                write_csv(out_file_path,json_keys,dataset)
+                # out_file_path= "{}_part_{}.csv".format(csv_file,file_part)
+                # write_csv(out_file_path,json_keys,dataset)
                 file_part += 1
                 del dataset
                 dataset = []
                 json_keys= []
                 count = 0
+    out_file_path= "{}_part_{}.csv".format(csv_file,file_part)
+    write_csv(out_file_path,json_keys,dataset)
  
     print("items found: {} in {}".format( len(dataset), json_file))
     json_keys.sort()
