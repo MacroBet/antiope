@@ -19,11 +19,12 @@ def json_to_csv(json_file, csv_file):
         for line in infile:
             json_obj = json.loads(line)
             json_keys= list(set(json_keys) | set(json_obj.keys()))
+            del json_obj["description"]
             dataset.append(json_obj)
             count += 1
             if(count>500000):
-                # out_file_path= "{}_part_{}.csv".format(csv_file,file_part)
-                # write_csv(out_file_path,json_keys,dataset)
+                out_file_path= "{}_part_{}.csv".format(csv_file,file_part)
+                write_csv(out_file_path,json_keys,dataset)
                 file_part += 1
                 del dataset
                 dataset = []
