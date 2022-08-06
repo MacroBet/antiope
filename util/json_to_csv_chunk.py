@@ -21,9 +21,9 @@ def json_to_csv(json_file, csv_file):
             json_keys= list(set(json_keys) | set(json_obj.keys()))
             del json_obj["description"]
             if(json_obj["category"]):
-                for category in json_obj["category"]:
-                    if(len(json_obj[category])>40):
-                        json_obj[category] = json_obj[category][0:40]
+                for i,category in enumerate(json_obj["category"]):
+                    if(len(category)>40):
+                        json_obj["category"][i]=category[0:40]
             del json_obj["feature"]
             del json_obj["image"]
 
