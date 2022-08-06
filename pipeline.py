@@ -1,4 +1,4 @@
-from util.json_to_csv import json_to_csv
+from util.json_to_csv_chunk import json_to_csv
 import threading
 import time
 
@@ -15,7 +15,7 @@ print(dataSource)
 
 
 def execute_job(i,source):
-    json_to_csv(base_json_path+source+".json",base_csv_path+source+".csv")
+    json_to_csv(base_json_path+source+".json",base_csv_path+source)
     print("done with {} ({}/{})\n\n".format(source,i+1,len(dataSource)))
 
 
