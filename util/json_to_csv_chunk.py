@@ -28,6 +28,8 @@ def json_to_csv(json_file, csv_file):
             del json_obj["image"]
 
             dataset.append(json_obj)
+            if(count%100==0):
+                print(count)
             count += 1
             if(count>500000):
                 out_file_path= "{}_part_{}.csv".format(csv_file,file_part)
