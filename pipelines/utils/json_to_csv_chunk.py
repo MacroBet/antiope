@@ -19,6 +19,8 @@ def json_to_csv(json_file, csv_file):
         for line in infile:
             json_obj = json.loads(line)
             json_keys= list(set(json_keys) | set(json_obj.keys()))
+            
+            # clean object 
             del json_obj["description"]
             if(json_obj["category"]):
                 for i,category in enumerate(json_obj["category"]):

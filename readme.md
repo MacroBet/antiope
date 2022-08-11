@@ -10,3 +10,8 @@
 python json_to_csv.py ./Volumes/Extreme SSD/data/reviews_Digital_Music_5.json ./Volumes/Extreme SSD/data/reviews_Digital_Music_5.csv
 python json_to_csv.py ./Volumes/Extreme SSD/data/reviews_Electronics_5 csv
 python json_to_csv.py ./Volumes/Extreme SSD/data/reviews_Movies_and_TV_5 csv
+
+# data preprocessing
+
+1. From Json to Csv + remove
+2. keep only products that have reviews and metadata

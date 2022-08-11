@@ -1,0 +1,6 @@
+word classes could be interesting lookup for frequencies
+# components
+# Phrases
+# positive count 
+# negative count
+https://www.englishclub.com/vocabulary/word-classes.htm#gooù
